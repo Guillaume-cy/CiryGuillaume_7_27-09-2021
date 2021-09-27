@@ -2,15 +2,26 @@
   "name": "social",
   "version": "1.0.0",
   "description": "Backend pour la creation d'un reseau social d'entreprise",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "Guillaume Ciry",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
     "mysql": "^2.18.1",
     "mysql2": "^2.3.0",
     "sequelize": "^6.6.5"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guillaume-cy/CiryGuillaume_7_27-09-2021.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Guillaume-cy/CiryGuillaume_7_27-09-2021/issues"
+  },
+  "homepage": "https://github.com/Guillaume-cy/CiryGuillaume_7_27-09-2021#readme"
 }
